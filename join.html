@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="./css/stylesheet.css" type="text/css">
+    <title>Cardinal Club Poker - Join</title>
+</head>
+<body class="secondary">
+    <nav>
+        <div class="logo">
+            <h4>Cardinal Club Poker</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <h2>Join the event invitation list</h2>
+
+    <form name="invitee" action="https://formspree.io/f/xjvlnbwg" method="POST" id="my-form">
+        <fieldset>
+            <label for="name1">First Name: </label>
+            <input type="text" id="name1" name="first_name" style="width: 300px">
+
+            <label for="name2">Last Name: </label>
+            <input type="text" id="name2" name="last_name" style="width: 300px">
+            
+            <label for="cell">Cell phone number: </label>
+            <input type="tel" id="cell" name="cell" style="width: 300px">
+
+            <label for="carrier">Cell carrier:</label>
+                <div>
+                <input type="radio" id="att" name="carrier" value="att">
+                <label for="att">AT&T</label>
+                </div>
+
+                <div>
+                <input type="radio" id="boost" name="carrier" value="boost">
+                <label for="att">Boost Mobile</label>
+                </div>
+
+                <div>
+                <input type="radio" id="cricket" name="carrier" value="cricket">
+                <label for="att">Cricket</label>
+                </div>
+
+                <div>
+                <input type="radio" id="googlefi" name="carrier" value="googlefi">
+                <label for="att">Google Fi</label>
+                </div>
+
+                <div>
+                <input type="radio" id="metropcs" name="carrier" value="metropcs">
+                <label for="att">Metro PCS</label>
+                </div>
+
+                <div>
+                <input type="radio" id="sprint" name="carrier" value="sprint">
+                <label for="att">Sprint</label>
+                </div>
+
+                <div>
+                <input type="radio" id="tmobile" name="carrier" value="tmobile">
+                <label for="att">T-Mobile</label>
+                </div>
+
+                <div>
+                <input type="radio" id="tracfone" name="carrier" value="tracfone">
+                <label for="dewey">Tracfone</label>
+                </div>
+
+                <div>
+                <input type="radio" id="uscellular" name="carrier" value="uscellular">
+                <label for="louie">US Cellular</label>
+                </div>
+
+                <div>
+                <input type="radio" id="verizon" name="carrier" value="verizon">
+                <label for="louie">Verizon</label>
+                </div>
+
+                <div>
+                <input type="radio" id="virginmobile" name="carrier" value="virginmobile">
+                <label for="louie">Virgin Mobile</label>
+                </div>
+
+                <div>
+                <input type="radio" id="xfinity" name="carrier" value="xfinity">
+                <label for="louie">Xfinity Mobile</label>
+                </div>
+        </fieldset>
+
+            <div class="buttons">
+                <button type="submit" id="validation">Sign Up</button>
+            </div>
+
+            <div id="status"></div>
+</form>
+    
+
+    <footer class="main-footer">
+        <span>&copy; 2018 Cardinal Club Poker<br>
+            Website designed by Anthony Branham</span>
+    </footer>
+
+    <script src="./scripts/burger.js"></script>
+    <script src="./scripts/submit.js"></script>
+</body>
+</html>
