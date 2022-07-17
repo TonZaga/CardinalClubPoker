@@ -19,6 +19,7 @@ body {
   margin: 0 auto;
   font-family: Georgia, 'Times New Roman', Times, serif;
   background: var(--primary);
+  padding-bottom: 20px;
 }
 
 .logo {
@@ -76,9 +77,7 @@ h1 {
 }
 
 .main-footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  display: inline-block;
   color: white;
   border-top: 3px solid white;
   padding: 15px 0 15px 0;
@@ -173,10 +172,9 @@ button[type="submit"]:hover {
 
 /*  Small tablets */
 
-@media screen and (min-width: 620px) {
+/* @media screen and (min-width: 620px) {
 
-
-}
+} */
 
 /*  Large tablets/laptops */
 
