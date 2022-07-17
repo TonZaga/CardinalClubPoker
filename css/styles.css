@@ -75,7 +75,7 @@ h1 {
   color: var(--secondary);
 }
 
-#main-footer {
+footer {
   position: absolute;
   left: 0;
   bottom: 0;
