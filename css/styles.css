@@ -8,15 +8,6 @@
   margin: 0;
 }
 
-@font-face {
-  font-family: 'anthemieregular';
-  src: url('./anthemie-webfont.woff2') format('woff2'),
-       url('./anthemie-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
 :root{
   --primary: black;
   --secondary: white;
@@ -42,12 +33,10 @@ body {
   max-width: 100%;
 }
 
-.title {
-  font-family: "Anthemie";
-  margin-left: 15px;
-  font-size: 2.1em;
-  text-decoration: none;
-  color: black;
+#header {
+  margin: 10px 0 10px 10px;
+  position: relative;
+  max-width: 50%;
 }
 
 .topnav {
@@ -78,7 +67,7 @@ body {
   display: block;
   position: absolute;
   right: 0;
-  top: -5px;
+  top: 0;
 }
 
 h1 {
