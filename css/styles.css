@@ -29,6 +29,7 @@ body {
   margin: 0 auto;
   font-family: Georgia, 'Times New Roman', Times, serif;
   background: var(--primary);
+  padding-bottom: 60px;
 }
 
 .logo {
@@ -92,6 +93,7 @@ h1 {
   bottom: 0;
   color: white;
   border-top: 3px solid white;
+  height: 60px;
   width: 100%;
   text-align: center;
 }
