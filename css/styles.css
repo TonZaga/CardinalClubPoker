@@ -20,6 +20,7 @@
 }
 
 body {
+  min-height: 100vh;
   margin: 0 auto;
   font-family: Georgia, 'Times New Roman', Times, serif;
   background: var(--primary);
