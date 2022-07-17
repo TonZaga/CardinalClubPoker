@@ -76,13 +76,14 @@ h1 {
   color: var(--secondary);
 }
 
-.main-footer {
+#main-footer {
   position: absolute;
   left: 0;
   bottom: 0;
   color: white;
   border-top: 3px solid white;
   padding: 15px 0 15px 0;
+  height: 50px;
   width: 100%;
   text-align: center;
 }
