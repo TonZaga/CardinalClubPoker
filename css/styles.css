@@ -5,8 +5,12 @@
 }
 
 @font-face {
-  src: url(./Anthemie.ttf);
-  font-family: "Anthemie";
+  font-family: 'anthemieregular';
+  src: url('./anthemie-webfont.woff2') format('woff2'),
+       url('./anthemie-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 :root{
