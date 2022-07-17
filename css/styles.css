@@ -1,3 +1,8 @@
+/* ============== 
+  Base styles   |
+================= */
+
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -84,14 +89,18 @@ h1 {
 
 .main-footer {
   position: absolute;
-  left: 0;
   bottom: 0;
   color: white;
   border-top: 3px solid white;
-  padding: 15px 0 15px 0;
   width: 100%;
   text-align: center;
 }
+
+
+
+/* ============== 
+  Form style    |
+================= */
 
 input[type="text"],
 input[type="email"],
