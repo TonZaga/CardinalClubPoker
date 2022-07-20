@@ -77,13 +77,18 @@ h1 {
 
 footer {
   position: absolute;
-  left: 0;
-  bottom: 0;
   color: white;
   border-top: 3px solid white;
   padding: 15px 0 15px 0;
   width: 100%;
   text-align: center;
+}
+
+.gallery,
+.dash,
+.schedule {
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 
@@ -179,12 +184,19 @@ button[type="submit"]:hover {
 
 /*  Large tablets/laptops */
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 810px) {
 
   .topnav  a.icon:hover {
     background-color: #FF0000;
     color: black;
   }
+
+  #nav-links a:hover {
+    color: red;
+  }
+
+  .chips {
+    width: 40%;
 }
 
 /*  Desktop */
@@ -194,6 +206,22 @@ button[type="submit"]:hover {
   .topnav a.icon:hover {
     background-color: #FF0000;
     color: black;
+  }
+
+  #nav-links a:hover {
+    color: red;
+  }
+
+  .chips {
+    width: 25%;
+}
+
+.dash iframe {
+  height: 750px;
+  width: 377px;
+}
+
+  
   }
 }
 
