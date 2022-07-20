@@ -149,6 +149,19 @@ button[type="submit"]:hover {
   padding-top: 20px;
 }
 
+.join_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.join_form h1,
+.buttons {
+    text-align: center;
+  }
+
 #status {
   width: 50%;
   font-size: 1.5em;
@@ -223,6 +236,7 @@ button[type="submit"]:hover {
     width: 377px;
 }
   }
+
 }
 
 
