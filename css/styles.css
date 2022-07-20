@@ -21,8 +21,7 @@ body {
   background: var(--primary);
 }
 
-.logo {
-  position: absolute;
+.bird {
   top: 10%;
   left: 15%;
   max-width: 75%;
@@ -86,7 +85,8 @@ footer {
 
 .gallery,
 .dash,
-.schedule {
+.schedule,
+.logo {
   text-align: center;
   padding-bottom: 20px;
 }
