@@ -27,7 +27,13 @@ body {
   max-width: 75%;
 }
 
-.chips {
+.chips,
+.cuts,
+.cabinet,
+.bourbon,
+.copags,
+.two5chips,
+.livegame {
   position: relative;
   max-width: 100%;
 }
@@ -88,6 +94,10 @@ footer {
 .schedule,
 .logo {
   text-align: center;
+  padding-bottom: 20px;
+}
+
+.gallery img {
   padding-bottom: 20px;
 }
 
@@ -208,8 +218,14 @@ button[type="submit"]:hover {
     color: red;
   }
 
+  .bird,
   .chips,
-  .bird {
+  .cuts,
+  .cabinet,
+  .bourbon,
+  .copags,
+  .two5chips,
+  .livegame {
     width: 40%;
 }
 
@@ -226,9 +242,15 @@ button[type="submit"]:hover {
     color: red;
   }
 
+  .bird,
   .chips,
-  .bird {
-    width: 25%;
+  .cuts,
+  .cabinet,
+  .bourbon,
+  .copags,
+  .two5chips,
+  .livegame {
+    width: 35%;
 }
 
   .dash iframe {
