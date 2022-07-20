@@ -195,7 +195,8 @@ button[type="submit"]:hover {
     color: red;
   }
 
-  .chips {
+  .chips,
+  .bird {
     width: 40%;
 }
 
@@ -212,16 +213,15 @@ button[type="submit"]:hover {
     color: red;
   }
 
-  .chips {
+  .chips,
+  .bird {
     width: 25%;
 }
 
-.dash iframe {
-  height: 750px;
-  width: 377px;
+  .dash iframe {
+    height: 750px;
+    width: 377px;
 }
-
-  
   }
 }
 
